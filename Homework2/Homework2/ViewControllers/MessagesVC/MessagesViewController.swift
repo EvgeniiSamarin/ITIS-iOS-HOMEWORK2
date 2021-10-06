@@ -1,5 +1,5 @@
 //
-//  HomeViewController.swift
+//  MessagesViewController.swift
 //  Homework2
 //
 //  Created by Евгений Самарин on 03.10.2021.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class HomeViewController: ViewController {
+final class MessagesViewController: UIViewController {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -17,15 +17,15 @@ final class HomeViewController: ViewController {
     }
 
     override func loadView() {
-        let view = HomeView()
+        let view = MessagesView()
         view.output = self
         self.view = view
     }
 }
 
-extension HomeViewController: HomeVCViewOutput {
-    func message() {
-        print("---> Message")
-        self.navigationController?.pushViewController(MessagesViewController(), animated: true)
+extension MessagesViewController: MessagesVCViewOutput {
+
+    func back() {
+        self.navigationController?.popViewController(animated: true)
     }
 }

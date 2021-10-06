@@ -11,7 +11,7 @@ import UIKit
 class HomeView: UIView {
 
     private enum Metrics {
-        static let headerHeight: CGFloat = 126 - UIApplication.shared.statusBarFrame.height
+        static let headerHeight: CGFloat = 126
         static let sideOfSet: CGFloat = 16
         static let logoutBtnWidth: CGFloat = 143
         static let logoutBtnHeight: CGFloat = 36
@@ -132,14 +132,13 @@ class HomeView: UIView {
 
         // MARK: - HeaderView Constraints
 
-        self.headerView.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor).isActive = true
-        self.headerView.pinToSuperView(sides: [.right, .left])
+        self.headerView.pinToSuperView(sides: [.right, .left, .top])
         self.headerView.setDemission(.height(Metrics.headerHeight))
 
         // MARK: - MessagesButtonView Constraints
 
-        self.messagesButton.pinToSuperView(sides: [.right(-8)])
-        self.messagesButton.pin(side: .bottom(-14), to: .top(self.profileNameView))
+        self.messagesButton.pinToSuperView(sides: [.right(-8), .top(42)])
+//        self.messagesButton.pin(side: .bottom(-14), to: .top(self.profileNameView))
 
         // MARK: - ProfileNameView Constraints
 
@@ -164,7 +163,6 @@ class HomeView: UIView {
     }
 
     @objc private func message() {
-        print("---> Message")
         self.output?.message()
     }
 }
