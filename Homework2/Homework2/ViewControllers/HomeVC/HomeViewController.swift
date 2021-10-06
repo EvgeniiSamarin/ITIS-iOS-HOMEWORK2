@@ -24,8 +24,8 @@ final class HomeViewController: ViewController {
 }
 
 extension HomeViewController: HomeVCViewOutput {
+
     func message() {
-        print("---> Message")
         self.navigationController?.pushViewController(MessagesViewController(), animated: true)
     }
 }
