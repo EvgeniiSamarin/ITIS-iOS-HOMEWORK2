@@ -15,6 +15,18 @@
 		7D456B952709CA4700BC4C63 /* Homework2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D456B942709CA4700BC4C63 /* Homework2Tests.swift */; };
 		7D456B9F2709CA4700BC4C63 /* Homework2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D456B9E2709CA4700BC4C63 /* Homework2UITests.swift */; };
 		7D456BA12709CA4700BC4C63 /* Homework2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D456BA02709CA4700BC4C63 /* Homework2UITestsLaunchTests.swift */; };
+		7D456BB12709CB4000BC4C63 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D456BB02709CB4000BC4C63 /* UIViewController+Extensions.swift */; };
+		7D456BB32709CBC600BC4C63 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D456BB22709CBC600BC4C63 /* HomeViewController.swift */; };
+		7D456BB62709CDD900BC4C63 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D456BB52709CDD900BC4C63 /* HomeView.swift */; };
+		7D456BC12709D5FD00BC4C63 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D456BC02709D5FD00BC4C63 /* UIView+Extensions.swift */; };
+		7D456BC32709ECE500BC4C63 /* Habibi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D456BC22709ECE500BC4C63 /* Habibi.ttf */; };
+		7D456BC9270A29C500BC4C63 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D456BC8270A29C500BC4C63 /* Color.xcassets */; };
+		7D456BCB270A300D00BC4C63 /* HomeVCViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D456BCA270A300D00BC4C63 /* HomeVCViewOutput.swift */; };
+		7D456BCF270A345600BC4C63 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D456BCE270A345600BC4C63 /* MessagesView.swift */; };
+		7D456BD1270A346300BC4C63 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D456BD0270A346300BC4C63 /* MessagesViewController.swift */; };
+		7D456BD3270A347800BC4C63 /* MessagesVCViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D456BD2270A347800BC4C63 /* MessagesVCViewOutput.swift */; };
+		7D456BD6270A551100BC4C63 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D456BD5270A551100BC4C63 /* ChatTableViewCell.swift */; };
+		7D456BD9270A5BA300BC4C63 /* Sender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D456BD8270A5BA300BC4C63 /* Sender.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,18 @@
 		7D456B9A2709CA4700BC4C63 /* Homework2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Homework2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D456B9E2709CA4700BC4C63 /* Homework2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework2UITests.swift; sourceTree = "<group>"; };
 		7D456BA02709CA4700BC4C63 /* Homework2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7D456BB02709CB4000BC4C63 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		7D456BB22709CBC600BC4C63 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7D456BB52709CDD900BC4C63 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7D456BC02709D5FD00BC4C63 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		7D456BC22709ECE500BC4C63 /* Habibi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Habibi.ttf; path = Homework2/Fonts/Habibi.ttf; sourceTree = SOURCE_ROOT; };
+		7D456BC8270A29C500BC4C63 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		7D456BCA270A300D00BC4C63 /* HomeVCViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCViewOutput.swift; sourceTree = "<group>"; };
+		7D456BCE270A345600BC4C63 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		7D456BD0270A346300BC4C63 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		7D456BD2270A347800BC4C63 /* MessagesVCViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesVCViewOutput.swift; sourceTree = "<group>"; };
+		7D456BD5270A551100BC4C63 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		7D456BD8270A5BA300BC4C63 /* Sender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +121,12 @@
 		7D456B7C2709CA4400BC4C63 /* Homework2 */ = {
 			isa = PBXGroup;
 			children = (
+				7D456BD4270A54F800BC4C63 /* Views */,
+				7D456BC7270A296700BC4C63 /* Assets */,
+				7D456BC42709ED0C00BC4C63 /* Fonts */,
+				7D456BAF2709CAC100BC4C63 /* ViewControllers */,
+				7D456BAE2709CAB400BC4C63 /* Model */,
+				7D456BAD2709CAAC00BC4C63 /* Extensions */,
 				7D456B7D2709CA4400BC4C63 /* AppDelegate.swift */,
 				7D456B7F2709CA4400BC4C63 /* SceneDelegate.swift */,
 				7D456B812709CA4400BC4C63 /* ViewController.swift */,
@@ -122,6 +152,77 @@
 				7D456BA02709CA4700BC4C63 /* Homework2UITestsLaunchTests.swift */,
 			);
 			path = Homework2UITests;
+			sourceTree = "<group>";
+		};
+		7D456BAD2709CAAC00BC4C63 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7D456BB02709CB4000BC4C63 /* UIViewController+Extensions.swift */,
+				7D456BC02709D5FD00BC4C63 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7D456BAE2709CAB400BC4C63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D456BD8270A5BA300BC4C63 /* Sender.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7D456BAF2709CAC100BC4C63 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7D456BCD270A343300BC4C63 /* MessagesVC */,
+				7D456BB72709CF1C00BC4C63 /* HomeVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7D456BB72709CF1C00BC4C63 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				7D456BB52709CDD900BC4C63 /* HomeView.swift */,
+				7D456BB22709CBC600BC4C63 /* HomeViewController.swift */,
+				7D456BCA270A300D00BC4C63 /* HomeVCViewOutput.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		7D456BC42709ED0C00BC4C63 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7D456BC22709ECE500BC4C63 /* Habibi.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7D456BC7270A296700BC4C63 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7D456B862709CA4700BC4C63 /* Assets.xcassets */,
+				7D456BC8270A29C500BC4C63 /* Color.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		7D456BCD270A343300BC4C63 /* MessagesVC */ = {
+			isa = PBXGroup;
+			children = (
+				7D456BCE270A345600BC4C63 /* MessagesView.swift */,
+				7D456BD0270A346300BC4C63 /* MessagesViewController.swift */,
+				7D456BD2270A347800BC4C63 /* MessagesVCViewOutput.swift */,
+			);
+			path = MessagesVC;
+			sourceTree = "<group>";
+		};
+		7D456BD4270A54F800BC4C63 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7D456BD5270A551100BC4C63 /* ChatTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,8 +355,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D456BD9270A5BA300BC4C63 /* Sender.swift in Sources */,
+				7D456BD1270A346300BC4C63 /* MessagesViewController.swift in Sources */,
+				7D456BC12709D5FD00BC4C63 /* UIView+Extensions.swift in Sources */,
+				7D456BB32709CBC600BC4C63 /* HomeViewController.swift in Sources */,
+				7D456BD3270A347800BC4C63 /* MessagesVCViewOutput.swift in Sources */,
+				7D456BCF270A345600BC4C63 /* MessagesView.swift in Sources */,
+				7D456BB12709CB4000BC4C63 /* UIViewController+Extensions.swift in Sources */,
 				7D456B822709CA4400BC4C63 /* ViewController.swift in Sources */,
 				7D456B7E2709CA4400BC4C63 /* AppDelegate.swift in Sources */,
+				7D456BD6270A551100BC4C63 /* ChatTableViewCell.swift in Sources */,
 				7D456B802709CA4400BC4C63 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,7 +540,7 @@
 				INFOPLIST_FILE = Homework2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -458,7 +567,7 @@
 				INFOPLIST_FILE = Homework2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
