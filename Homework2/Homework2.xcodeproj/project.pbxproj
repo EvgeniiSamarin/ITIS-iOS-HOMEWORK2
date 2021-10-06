@@ -133,6 +133,7 @@
 				7D456B7D2709CA4400BC4C63 /* AppDelegate.swift */,
 				7D456B7F2709CA4400BC4C63 /* SceneDelegate.swift */,
 				7D456B812709CA4400BC4C63 /* ViewController.swift */,
+				7D456B862709CA4700BC4C63 /* Assets.xcassets */,
 				7D456B882709CA4700BC4C63 /* LaunchScreen.storyboard */,
 				7D456B8B2709CA4700BC4C63 /* Info.plist */,
 			);
@@ -340,9 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D456B8A2709CA4700BC4C63 /* LaunchScreen.storyboard in Resources */,
-				7D456BC9270A29C500BC4C63 /* Color.xcassets in Resources */,
 				7D456B872709CA4700BC4C63 /* Assets.xcassets in Resources */,
-				7D456BC32709ECE500BC4C63 /* Habibi.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,11 +375,9 @@
 				7D456BCF270A345600BC4C63 /* MessagesView.swift in Sources */,
 				7D456BB12709CB4000BC4C63 /* UIViewController+Extensions.swift in Sources */,
 				7D456B822709CA4400BC4C63 /* ViewController.swift in Sources */,
-				7D456BB62709CDD900BC4C63 /* HomeView.swift in Sources */,
 				7D456B7E2709CA4400BC4C63 /* AppDelegate.swift in Sources */,
 				7D456BD6270A551100BC4C63 /* ChatTableViewCell.swift in Sources */,
 				7D456B802709CA4400BC4C63 /* SceneDelegate.swift in Sources */,
-				7D456BCB270A300D00BC4C63 /* HomeVCViewOutput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,7 +548,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S2YV26FJG3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Homework2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -579,7 +575,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S2YV26FJG3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Homework2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
