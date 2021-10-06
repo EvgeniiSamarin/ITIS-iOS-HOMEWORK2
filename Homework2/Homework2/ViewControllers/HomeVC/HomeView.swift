@@ -41,11 +41,7 @@ class HomeView: UIView {
         let view = UILabel()
         view.text = "Alex Tsimikas"
         guard let customFont = UIFont(name: "Habibi", size: 34) else {
-            fatalError("""
-                Failed to load the "Habibi" font.
-                Make sure the font file is included in the project and the font name is spelled correctly.
-                """
-            )
+            fatalError(ChatError.fontError)
         }
         view.font = UIFontMetrics.default.scaledFont(for: customFont)
         view.adjustsFontForContentSizeCategory = true
@@ -56,11 +52,7 @@ class HomeView: UIView {
         let view = UILabel()
         view.text = "Brooklyn, NY"
         guard let customFont = UIFont(name: "Habibi", size: 16) else {
-            fatalError("""
-                Failed to load the "Habibi" font.
-                Make sure the font file is included in the project and the font name is spelled correctly.
-                """
-            )
+            fatalError(ChatError.fontError)
         }
         view.font = UIFontMetrics.default.scaledFont(for: customFont)
         view.adjustsFontForContentSizeCategory = true
@@ -71,11 +63,7 @@ class HomeView: UIView {
         let button = UIButton(frame: CGRect(x: 0, y: 0, width: 125, height: 42))
         button.setTitle("Messages", for: .normal)
         guard let customFont = UIFont(name: "Habibi", size: 17) else {
-            fatalError("""
-                Failed to load the "Habibi" font.
-                Make sure the font file is included in the project and the font name is spelled correctly.
-                """
-            )
+            fatalError(ChatError.fontError)
         }
         button.setTitleColor(UIColor(named: "MessageButtonColor"), for: .normal)
         button.titleLabel?.font = UIFontMetrics.default.scaledFont(for: customFont)
@@ -92,11 +80,7 @@ class HomeView: UIView {
         let label = UILabel()
         label.text = "Logout"
         guard let customFont = UIFont(name: "Habibi", size: 14) else {
-            fatalError("""
-                Failed to load the "Habibi" font.
-                Make sure the font file is included in the project and the font name is spelled correctly.
-                """
-            )
+            fatalError(ChatError.fontError)
         }
         label.font = UIFontMetrics.default.scaledFont(for: customFont)
         label.adjustsFontForContentSizeCategory = true

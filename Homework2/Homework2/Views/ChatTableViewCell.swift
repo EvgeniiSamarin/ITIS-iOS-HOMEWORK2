@@ -13,11 +13,7 @@ class ChatTableViewCell: UITableViewCell {
     private var nameLabel: UILabel = {
         let label = UILabel()
         guard let customFont = UIFont(name: "Habibi", size: 14) else {
-            fatalError("""
-                Failed to load the "Habibi" font.
-                Make sure the font file is included in the project and the font name is spelled correctly.
-                """
-            )
+            fatalError(ChatError.fontError)
         }
         label.font = UIFontMetrics.default.scaledFont(for: customFont)
         label.textColor = UIColor(named: "MessagesChatTitleColor")
@@ -27,11 +23,7 @@ class ChatTableViewCell: UITableViewCell {
     private var messageLabel: UILabel = {
         let label = UILabel()
         guard let customFont = UIFont(name: "Habibi", size: 14) else {
-            fatalError("""
-                Failed to load the "Habibi" font.
-                Make sure the font file is included in the project and the font name is spelled correctly.
-                """
-            )
+            fatalError(ChatError.fontError)
         }
         label.font = UIFontMetrics.default.scaledFont(for: customFont)
         label.textColor = UIColor(named: "MessagesChatColor")
@@ -41,11 +33,7 @@ class ChatTableViewCell: UITableViewCell {
     private var dateLabel: UILabel = {
         let label = UILabel()
         guard let customFont = UIFont(name: "Habibi", size: 14) else {
-            fatalError("""
-                Failed to load the "Habibi" font.
-                Make sure the font file is included in the project and the font name is spelled correctly.
-                """
-            )
+            fatalError(ChatError.fontError)
         }
         label.font = UIFontMetrics.default.scaledFont(for: customFont)
         label.textColor = UIColor(named: "MessagesChatDateColor")
@@ -71,13 +59,10 @@ class ChatTableViewCell: UITableViewCell {
     }
 
     private func setupConstraints() {
-        self.photoImageView.translatesAutoresizingMaskIntoConstraints = false
         self.photoImageView.pinToSuperView(sides: [.left(24), .bottom(-26), .top(26)])
-        self.photoImageView.setDemission(.height(40))
-        self.photoImageView.setDemission(.width(40))
+        self.photoImageView.setEqualSize(constant: 40)
         
 
-        self.nameLabel.translatesAutoresizingMaskIntoConstraints = false
         self.nameLabel.pinToSuperView(sides: [.top(26)])
         self.nameLabel.pin(side: .left(8), to: .right(self.photoImageView))
 
@@ -85,7 +70,6 @@ class ChatTableViewCell: UITableViewCell {
         self.messageLabel.pin(side: .left(8), to: .right(self.photoImageView))
         self.messageLabel.pin(side: .top(4), to: .bottom(self.nameLabel))
 
-        self.dateLabel.translatesAutoresizingMaskIntoConstraints = false
         self.dateLabel.pinToSuperView(sides: [.right(-24), .top(24)])
     }
 

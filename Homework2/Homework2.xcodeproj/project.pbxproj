@@ -27,6 +27,7 @@
 		7D456BD3270A347800BC4C63 /* MessagesVCViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D456BD2270A347800BC4C63 /* MessagesVCViewOutput.swift */; };
 		7D456BD6270A551100BC4C63 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D456BD5270A551100BC4C63 /* ChatTableViewCell.swift */; };
 		7D456BD9270A5BA300BC4C63 /* Sender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D456BD8270A5BA300BC4C63 /* Sender.swift */; };
+		7D456BF0270E3A5300BC4C63 /* ChatError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D456BEF270E3A5300BC4C63 /* ChatError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		7D456BD2270A347800BC4C63 /* MessagesVCViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesVCViewOutput.swift; sourceTree = "<group>"; };
 		7D456BD5270A551100BC4C63 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
 		7D456BD8270A5BA300BC4C63 /* Sender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sender.swift; sourceTree = "<group>"; };
+		7D456BEF270E3A5300BC4C63 /* ChatError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		7D456B7C2709CA4400BC4C63 /* Homework2 */ = {
 			isa = PBXGroup;
 			children = (
+				7D456BEE270E3A3500BC4C63 /* Errors */,
 				7D456BD4270A54F800BC4C63 /* Views */,
 				7D456BC7270A296700BC4C63 /* Assets */,
 				7D456BC42709ED0C00BC4C63 /* Fonts */,
@@ -223,6 +226,14 @@
 				7D456BD5270A551100BC4C63 /* ChatTableViewCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		7D456BEE270E3A3500BC4C63 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				7D456BEF270E3A5300BC4C63 /* ChatError.swift */,
+			);
+			path = Errors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,6 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D456BF0270E3A5300BC4C63 /* ChatError.swift in Sources */,
 				7D456BD9270A5BA300BC4C63 /* Sender.swift in Sources */,
 				7D456BD1270A346300BC4C63 /* MessagesViewController.swift in Sources */,
 				7D456BC12709D5FD00BC4C63 /* UIView+Extensions.swift in Sources */,
