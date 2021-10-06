@@ -12,9 +12,8 @@ class MessagesView: UIView {
 
     private enum Metrics {
         static let headerHeight: CGFloat = 128
-        static let sideOfSet: CGFloat = 16
-        static let logoutBtnWidth: CGFloat = 143
-        static let logoutBtnHeight: CGFloat = 36
+        static let backButtonSize: Int = 32
+        static let rowHeight: CGFloat = 92
     }
 
     // MARK: - Instance Properties
@@ -29,7 +28,7 @@ class MessagesView: UIView {
     }()
 
     private var backButton: UIButton = {
-        let button = UIButton(frame: CGRect(x: 0, y: 0, width: 32, height: 32))
+        let button = UIButton(frame: CGRect(x: 0, y: 0, width: Metrics.backButtonSize, height: Metrics.backButtonSize))
         button.setImage(UIImage(named: "backBarButtonIcon"), for: .normal)
         button.imageView?.contentMode = .scaleAspectFit
         return button
@@ -39,11 +38,7 @@ class MessagesView: UIView {
         let label = UILabel()
         label.text = "MESSAGES"
         guard let customFont = UIFont(name: "Habibi", size: 17) else {
-            fatalError("""
-                Failed to load the "Habibi" font.
-                Make sure the font file is included in the project and the font name is spelled correctly.
-                """
-            )
+            fatalError(ChatError.fontError)
         }
         label.font = UIFontMetrics.default.scaledFont(for: customFont)
         label.adjustsFontForContentSizeCategory = true
@@ -57,11 +52,7 @@ class MessagesView: UIView {
         searchBar.isTranslucent = false
         searchBar.placeholder = "Who do you want to chat with?"
         guard let customFont = UIFont(name: "Habibi", size: 17) else {
-            fatalError("""
-                Failed to load the "Habibi" font.
-                Make sure the font file is included in the project and the font name is spelled correctly.
-                """
-            )
+            fatalError(ChatError.fontError)
         }
         searchBar.searchTextField.attributedPlaceholder = NSAttributedString(string: "Who do you want to chat with?", attributes: [
             .foregroundColor: UIColor.lightGray,
@@ -133,7 +124,7 @@ class MessagesView: UIView {
     private func setupDelegates() {
         self.tableView.delegate = self
         self.tableView.dataSource = self
-        self.tableView.rowHeight = 92
+        self.tableView.rowHeight = Metrics.rowHeight
         self.tableView.register(ChatTableViewCell.self, forCellReuseIdentifier: "chatTableViewCell")
         self.tableView.separatorColor = UIColor(named: "MessagesChatDividerColor")
         self.tableView.separatorStyle = .singleLine
