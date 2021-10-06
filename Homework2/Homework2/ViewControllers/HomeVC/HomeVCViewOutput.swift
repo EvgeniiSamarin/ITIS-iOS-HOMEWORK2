@@ -8,5 +8,6 @@
 import UIKit
 
 protocol HomeVCViewOutput: AnyObject {
+
     func message()
 }
